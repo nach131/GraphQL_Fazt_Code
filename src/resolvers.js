@@ -1,8 +1,10 @@
+import User from './models/User'
+
 export const resolvers = {
 
   Query: {
-    ping() {
-      return 'pong..!!!'
+    getUsers: async () => {
+      return await User.find()
     }
   }
 }

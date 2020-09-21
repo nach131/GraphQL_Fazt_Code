@@ -1,8 +1,15 @@
 export const typeDefs = `
 
 type Query {
-  ping: String
+  getUsers: [User]!
 }
 
+type User {
+  _id: ID!
+  nickname: String!
+  fullname: String!
+  phone: String
+  city: String
+}
 
 `
