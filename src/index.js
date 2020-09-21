@@ -1,16 +1,10 @@
-import { GraphQLServer } from 'graphql-yoga'
+import {server} from './server'
 
-import { typeDefs } from './typeDefs'
-import { resolvers } from './resolvers'
-
-import './database'
-
-const server = new GraphQLServer({
-  typeDefs,
-  resolvers
+server.start({port: 3100}, ({port})=> {
+  console.log('Server on port', port);
 })
 
 
-server.start(() => {
-  console.log("Servidor GraphQL funcionando")
-})
+
+
+
