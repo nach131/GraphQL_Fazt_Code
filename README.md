@@ -7,3 +7,5 @@ Servidor basico de GraphQL yoga, mongoose, babel
 18:20 Schema para mongoDB
 
 27:00 Mutacion
+
+37:00 Crear Consulta
