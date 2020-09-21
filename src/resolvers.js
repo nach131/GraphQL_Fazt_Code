@@ -14,6 +14,9 @@ export const resolvers = {
     createUser: async (_, {nickname, fullname, phone, city}) => {
      const user = new User({nickname, fullname, phone, city});
      return await user.save();
+    },
+    deleteUser: async (_, {id}) => {
+      return await User.findByIdAndDelete(id);
     }
   }
 }
