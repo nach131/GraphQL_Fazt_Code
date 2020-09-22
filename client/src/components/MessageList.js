@@ -27,9 +27,11 @@ const MessageList = () => {
         {data.messages.map(({_id, title, content, author}) => (
           <div key={_id} className="card m-2">
             <div className="card body">
-              <h4>{title}</h4>
+            <div className="card-header">{title}</div>
+            <div className="card-body">
               <p>{content}</p>
               <p>{author}</p>
+            </div>
             </div>
           </div>
         ))}

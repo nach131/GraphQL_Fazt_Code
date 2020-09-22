@@ -4,7 +4,7 @@ import MessageList from './components/MessageList'
 import MessageForm from './components/MesageForm'
 import { Navigator } from './components/Navbar';
 
-import 'bootswatch/dist/lux/bootstrap.min.css'
+import 'bootswatch/dist/superhero/bootstrap.min.css'
 
 function App() {
   return (
