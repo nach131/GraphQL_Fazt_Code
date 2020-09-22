@@ -10,10 +10,12 @@ function App() {
   return (
  <Router>
  <Navigator/>
-   <Switch>
+ <div className="container p-4">
+ <Switch>
      <Route exact path="/" component={MessageList}/>
      <Route exact path="/new-message" component={MessageForm}/>
    </Switch>
+ </div>
  </Router>
   );
 }
