@@ -14,4 +14,8 @@ Servidor basico de GraphQL yoga, mongoose, babel
 # Rama React
 2_GraphQL Yoga & React Ejemplo Práctico con Babel, Bootstrap y Mongodb
  
- 17:56 consultas
+17:56 consultas
+
+33:24 React
+
+35:00 Instal modulos para react

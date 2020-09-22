@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-mongoose.connect('mongodb://localhost/grapqltest',{
+mongoose.connect('mongodb://localhost/grapqlreactdb',{
   useNewUrlParser: true,
   useUnifiedTopology:true
 })
