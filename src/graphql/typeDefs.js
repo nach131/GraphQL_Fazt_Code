@@ -1,5 +1,15 @@
 export const typeDefs = `
 type Query {
-  ping = String
+  book: [Book]!
+  author : [Author!]!
+}
+ type Book {
+   id: ID!
+   title: String!
+   author: Author
+ }
+ type Author {
+  id: ID!
+  name: String!
 }
 `

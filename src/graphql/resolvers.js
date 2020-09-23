@@ -1,7 +1,13 @@
+import { books } from '../data/books'
+import {author} from '../data/authors'
+  
 export const resolvers = {
   Query: {
-    ping(){
-      return 'Poong'
+    book() {
+      return books
+    }, 
+    authors() {
+      return author
     }
-  }
+  },
 }
