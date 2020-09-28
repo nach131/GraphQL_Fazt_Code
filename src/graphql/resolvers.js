@@ -1,13 +1,13 @@
 import { books } from '../data/books'
-import {author} from '../data/authors'
+import {authors} from '../data/authors'
   
 export const resolvers = {
   Query: {
     book() {
       return books
     }, 
-    authors() {
-      return author
+    author() {
+      return authors
     }
   },
 }
