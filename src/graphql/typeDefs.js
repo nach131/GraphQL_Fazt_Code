@@ -6,10 +6,12 @@ type Query {
  type Book {
    id: ID!
    title: String!
-   author: Author
+   author: Author!
  }
  type Author {
   id: ID!
   name: String!
+  books: [Book!]
 }
+
 `
